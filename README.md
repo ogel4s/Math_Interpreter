@@ -17,22 +17,38 @@ In terms of grammar, the input statements are similar to Python grammar, such as
     python evaluator.py
     ```
 
-You can also use it as CLI:
-```bash
-python evaluator.py (-1) ** 0.5
-```
 
-# Operators
+# Operators & Functions
 The symbols of the operators used in the program are as follows:
 
-| Operators        | Symbol           |
+| Operators | Symbol |
 | ------------- |:-------------:|
-| *Power*      | **`^`** or **`**`** |
-| *Multiplication*      | **`*`**      |
-| *Division* | **`/`**      |
-| *Sum* | **`+`**      |
-| *Subtraction* | **`-`**      |
+| *Power* | **`^`** or **`**`** |
+| *Multiplication* | **`*`** |
+| *Division* | **`/`** |
+| *Sum* | **`+`** |
+| *Subtraction* | **`-`** |
+||
 
+
+You can also use trigonometric functions and inverse trigonometric functions:
+
+*Note: Functions are not case sensitive .*
+
+*Note: The default trigonometric calculation mode is **`deg`**, if you want to change it to rad, enter the **`config.ini`** file and change the mode value to **`rad`** .*
+
+| Functions |
+|:---------:|
+| **`sin, cos, tan, cot, csc, sec`** |
+| **`arcsin, arccos, arctan, arccot, arccsc, arcsec`** |
+| **`sinh, cosh, tanh, coth, csch, sech`** |
+| **`arcsinh, arccosh, arctanh, arccoth, arccsch, arcsech`** |
+|**`pi or PI (number)`**|
+
+example:
+```
+2 * 2 + pi / pi ** (-0.5 - (-1) ** 0.5) ** sin(cos(tan(arcsinh(sinh(10 ** (sin((-1) ** 0.5) - 1)) / 2))) / (1.2+3.4j)) - sin((1.2+3.4j)) / cos((((-1))) ** (((0.5)))) + 221 * PI - (PI+pij)
+```
 
 numbers:
 
@@ -44,8 +60,10 @@ numbers:
 # Example
 An input item:
 ```
-1 + ( 2 ** 0.5 * (1/2/3/((((-1)))) ** (((0.5))*10)+12.39347) ) * 2 / (-2) ** 0.5 + inf
+1 + ( 2 ** 0.5 * (1/2/3/((((-1)))) ** (((0.5))*10)+12.39347) ) * 2 / (-2) ** 0.5 + inf + 2 * 2 + pi / pi ** (-0.5 - (-1) ** 0.5) ** sin(cos(tan(arcsinh(sinh(10 ** (sin((-1) ** 0.5) - 1)) / 2))) / (1.2+3.4j)) - sin((1.2+3.4j)) / cos((((-1))) ** (((0.5)))) + 221 * PI - (PI+pij)
 ```
  
+
+**Enjoy...**
 
 🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹
